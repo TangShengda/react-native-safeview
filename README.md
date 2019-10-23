@@ -1,0 +1,2 @@
+# react-native-safeview
+替代ReactNative自带的SafeAreaView组件 抹平了SafeAreaView在IOS11以下的兼容性问题 保持个个IOS版本表现一致 请包裹在最外层
