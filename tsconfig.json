@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["es7", "dom"],
+    "jsx": "react-native",
+    "declaration": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "noUnusedLocals": true,
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "importHelpers": true
+  },
+  "compileOnSave": false
+}
