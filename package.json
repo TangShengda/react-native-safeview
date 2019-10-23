@@ -1,28 +1,31 @@
 {
-  "name": "reac-native-safeview",
-  "version": "1.1.1",
-  "description": "reactNative safeView模块 抹平了EN自带的safeView在IOS中的兼容性问题",
+  "name": "react-native-safeview",
+  "version": "1.0.0",
+  "description": "<h1 align=\"left\">React-Native-SafeView</h1>",
   "main": "dist/index",
   "module": "dist/index",
+  "dependencies": {
+    "csstype": "^2.6.7",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
+  },
   "scripts": {
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.ximalaya.com:TonyTang/reac-native-safeview.git"
+    "url": "git+https://github.com/TangShengda/react-native-safeview.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TangShengda/react-native-safeview/issues"
+  },
+  "homepage": "https://github.com/TangShengda/react-native-safeview#readme",
   "devDependencies": {
     "@types/react": "^16.8.22",
     "@types/react-native": "^0.57.65",
     "typescript": "^3.5.2"
-  },
-  "peerDependencies": {
-    "react": "16.4.1",
-    "react-native": "git+ssh://git@gitlab.ximalaya.com/react-native-app/xm-react-native-0.56.1.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "tslib": "^1.10.0"
   }
 }
