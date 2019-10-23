@@ -16,17 +16,17 @@
 ## 📦 安装
 
 ```bash
-npm install @xmly/reac-native-safeview --save
+npm install reac-native-safeview --save
 ```
 
 ```bash
-yarn add @xmly/reac-native-safeview
+yarn add reac-native-safeview
 ```
 
 ## 🔨 示例
 
 ```jsx
-import { SafeAreaView } from '@xmly/reac-native-safeview';
+import { SafeAreaView } from 'reac-native-safeview';
 render() {
     return <SafeAreaView>
       {你的代码}
