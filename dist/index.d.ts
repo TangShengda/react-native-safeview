@@ -4,6 +4,6 @@ interface SafeViewProps {
     style?: ViewStyle;
 }
 export default class SafeView extends PureComponent<SafeViewProps> {
-    render(): {} | null | undefined;
+    render(): JSX.Element;
 }
 export {};

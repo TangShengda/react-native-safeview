@@ -1,6 +1,6 @@
 import { __extends, __rest } from "tslib";
 import React, { PureComponent } from 'react';
-import { Platform, SafeAreaView } from 'react-native';
+import { Platform, SafeAreaView, View, StatusBar } from 'react-native';
 var SafeView = /** @class */ (function (_super) {
     __extends(SafeView, _super);
     function SafeView() {
@@ -17,7 +17,12 @@ var SafeView = /** @class */ (function (_super) {
         {this.props.children}
       </SafeAreaView>;
         }
-        return this.props.children;
+        return <View style={[style, {
+                marginTop: StatusBar.currentHeight,
+                flex: 1
+            }]} {...rest}>
+      {this.props.children}
+    </View>;
     };
     return SafeView;
 }(PureComponent));

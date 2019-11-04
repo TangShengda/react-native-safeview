@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import { Platform, SafeAreaView, ViewStyle } from 'react-native'
+import { Platform, SafeAreaView, ViewStyle, View, StatusBar } from 'react-native'
 
 interface SafeViewProps {
   style?: ViewStyle
@@ -20,6 +20,13 @@ export default class SafeView extends PureComponent<SafeViewProps>{
         {this.props.children}
       </SafeAreaView>
     }
-    return this.props.children
+    return <View style={[style, {
+      marginTop: StatusBar.currentHeight,
+      flex: 1
+    }]}
+      {...rest}
+    >
+      {this.props.children}
+    </View>
   }
 }
