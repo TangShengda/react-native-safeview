@@ -1,6 +1,6 @@
 {
   "name": "react-native-safeview",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "<h1 align=\"left\">React-Native-SafeView</h1>",
   "main": "dist/index",
   "module": "dist/index",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/TangShengda/react-native-safeview.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "TangShengDa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TangShengda/react-native-safeview/issues"

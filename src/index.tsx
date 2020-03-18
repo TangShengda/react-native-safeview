@@ -13,7 +13,8 @@ export default class SafeView extends PureComponent<SafeViewProps>{
       return <SafeAreaView
         style={[style, {
           marginTop: isHighVersion ? 0 : 22,
-          flex: 1
+          flex: 1,
+          width: '100%'
         }]}
         {...rest}
       >
@@ -22,7 +23,8 @@ export default class SafeView extends PureComponent<SafeViewProps>{
     }
     return <View style={[style, {
       marginTop: StatusBar.currentHeight,
-      flex: 1
+      flex: 1,
+      width: '100%'
     }]}
       {...rest}
     >
