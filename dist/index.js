@@ -12,14 +12,16 @@ var SafeView = /** @class */ (function (_super) {
             var isHighVersion = parseInt(String(Platform.Version), 10) >= 11;
             return <SafeAreaView style={[style, {
                     marginTop: isHighVersion ? 0 : 22,
-                    flex: 1
+                    flex: 1,
+                    width: '100%'
                 }]} {...rest}>
         {this.props.children}
       </SafeAreaView>;
         }
         return <View style={[style, {
                 marginTop: StatusBar.currentHeight,
-                flex: 1
+                flex: 1,
+                width: '100%'
             }]} {...rest}>
       {this.props.children}
     </View>;

@@ -1,6 +1,6 @@
 {
   "name": "react-native-safeview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "<h1 align=\"left\">React-Native-SafeView</h1>",
   "main": "dist/index",
   "module": "dist/index",
